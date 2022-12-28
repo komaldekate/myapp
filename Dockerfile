@@ -1,7 +1,7 @@
 docker connects our machine to virtual machine to run
 
 
-FROM node:7
+FROM node:18
 WORkDIR /app
 COPY package.json /app
 RUN npm install
